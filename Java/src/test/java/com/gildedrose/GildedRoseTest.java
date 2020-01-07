@@ -14,7 +14,7 @@ class GildedRoseTest {
         Item[] items = new Item[] { new Item("foo", 0, 0) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        Approvals.verify(app.items[0].name);
+        Approvals.verify(items[0].toString());
     }
 
 }
