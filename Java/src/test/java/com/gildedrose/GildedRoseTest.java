@@ -12,15 +12,12 @@ class GildedRoseTest {
 
     @Test
     void updateQuality() {
-        String name = "foo";
-        int sellIn = 0;
-        int quality = 0;
 
         CombinationApprovals.verifyAllCombinations(
                 this::doUpdateQuality,
-                new String[]{name},
-                new Integer[]{sellIn},
-                new Integer[]{quality});
+                new String[]{"foo"},
+                new Integer[]{0},
+                new Integer[]{0});
 
     }
 
