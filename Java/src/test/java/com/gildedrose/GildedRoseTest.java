@@ -17,7 +17,7 @@ class GildedRoseTest {
                 this::doUpdateQuality,
                 new String[]{"foo", "Aged Brie", "Backstage passes to a TAFKAL80ETC concert", "Sulfuras, Hand of Ragnaros"},
                 new Integer[]{0, 11},
-                new Integer[]{0, 1, 49, 50});
+                new Integer[]{0, 1, 5, 10, 49, 50});
 
     }
 
